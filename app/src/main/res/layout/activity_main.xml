@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:textColor="#E91E63"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ESCRIBA SU NOMBRE:" />
+
+    <EditText
+        android:id="@+id/camponombrepersona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"/>
+
+    <Button
+        android:id="@+id/botonsaludar"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SALUDAR" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:textColor="#2196F3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CASADO" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:textColor="#4CAF50"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SOLTERO" />
+    </RadioGroup>
+
+</LinearLayout>
